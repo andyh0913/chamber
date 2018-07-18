@@ -28,8 +28,8 @@ export default class Game extends Component {
   render() {
     return (
       <div className="game">
-        <img src={girlURL} width="50%"/>
-        <img src={girlURL} width="50%"/>    
+        <img src={girlURL} width="25%"/>
+        <img src={girlURL} width="25%"/>    
       </div>
     )
   }
