@@ -10,13 +10,14 @@ export default class Caution extends Component {
       }, 2000);
     }, 2000);
     window.addEventListener("contextmenu", (e) => {e.preventDefault()});
+    document.getElementById("bgm2").play();
   }
 
   render() {
     return (
       <div className="caution">
         <h1>小心頭上</h1>
-        <audio autoPlay>
+        <audio id="bgm2">
           <source src={bgm2URL} type="audio/ogg" />
         </audio>
       </div>

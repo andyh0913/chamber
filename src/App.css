@@ -40,6 +40,7 @@ body {
 
 .game img {
   border: white solid 1px;
+  cursor: pointer;
 }
 
 .caution {

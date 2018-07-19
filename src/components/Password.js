@@ -18,13 +18,14 @@ export default class Password extends Component {
       }
     })
     window.addEventListener("contextmenu", (e) => {e.preventDefault()});
+    document.getElementById("bgm1").play();
   }
   render() {
     return (
       <div className="background">
         <img src={keyboardURL} />
         <input id="password" type="text" className="password" autoFocus align="center" maxLength="6" />
-        <audio autoPlay>
+        <audio id="bgm1">
           <source src={bgm1URL} type="audio/ogg" />
         </audio>
       </div>
