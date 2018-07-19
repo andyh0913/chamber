@@ -14,6 +14,7 @@ export default class Game extends Component {
   componentDidMount() {
     var intervalId = setInterval(this.timer, 1000);
     this.setState({intervalId: intervalId});
+    window.addEventListener("contextmenu", (e) => {e.preventDefault()});
   }
   componentWillUnmount() {
     clearInterval(this.state.intervalId);
