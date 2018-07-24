@@ -16,7 +16,7 @@ export default class Caution extends Component {
   render() {
     return (
       <div className="caution">
-        <h1>小心頭上</h1>
+        <h1>小心你的後腦勺</h1>
         <audio id="bgm2">
           <source src={bgm2URL} type="audio/ogg" />
         </audio>
